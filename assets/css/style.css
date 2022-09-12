@@ -13,8 +13,9 @@ header {
     position: fixed;
 }
 
-header a, a:visited, a:hover, a:active {
+header a, header a:visited, header a:hover, header a:active {
     color: inherit;
+    font-size: 1.2em;
 }
 
 header div {
@@ -85,8 +86,14 @@ main {
 }
 
 #right-outgoing {
-    margin-right: 10px;
+    margin-right: 15px;
     font-size: 1.2em;
+}
+
+#right-outgoing a, #right-outgoing a:visited, #right-outgoing a:hover, #right-outgoing a:active {
+    display:block;
+    margin: 3px;
+    color:inherit;
 }
 
 #middle-section {
@@ -226,7 +233,7 @@ footer h2 {
     margin-bottom: 10px;
 }
 
-footer a, a:visited, a:hover, a:active {
+footer a, footer a:visited, footer a:hover, footer a:active {
     font-size: 1.2em;
     margin:5px;
     color:inherit;
