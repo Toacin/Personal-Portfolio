@@ -21,9 +21,10 @@ header a, header a:visited, header a:hover, header a:active {
 header div {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: start;
     padding: 10px 20px 10px 10px;
-    width: 16%;
+    margin-left:10px;
+    width: 50%;
 }
 
 header div img {
@@ -35,7 +36,7 @@ header div img {
 
 header div h2 {
     font-size: 1.8em;
-    padding-left: 3px;
+    padding-left: 15px;
 }
 
 header nav {
@@ -43,8 +44,13 @@ header nav {
     align-items: center;
     padding: 10px 10px 10px 15px;
     font-size: 1.3em;
-    justify-content: space-around;
-    width: 12%;
+    justify-content:end;
+    width: 40%;
+    margin-right: 40px;
+}
+
+header nav a {
+    padding: 10px;
 }
 
 main {
@@ -265,4 +271,65 @@ footer a, footer a:visited, footer a:hover, footer a:active {
     font-size: 1.2em;
     margin:5px;
     color:inherit;
+}
+
+@media screen and (max-width: 1400px) {
+    #center-title h3 {
+        font-size: 3.5em;
+        font-weight:bold;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #center-title h3 {
+        font-size: 2.5em;
+        font-weight: bolder;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position:static;
+        background-color: rgba(14,14,54,100%);
+    }
+    header div, header nav {
+        width: 95%;
+        margin: 0px;
+        padding:5px 0px;
+        justify-content: center;
+        flex-direction: column;
+    }
+    header div h2{
+        font-size: 3em;
+        padding-top: 20px;
+    }
+    header nav a {
+        margin:0px;
+        padding: 10px;
+    }
+    #top-section {
+        justify-content: center;
+    }
+    #left-city {
+        display:none;
+    }
+    #center-title {
+        max-width: 50%;
+    }
+    #center-title h3 {
+        font-size: 3em;
+    }
+    #right-outgoing {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header div h2 {
+        font-size: 1.8em;
+        font-weight: bolder;
+    }
 }
