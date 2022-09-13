@@ -273,6 +273,12 @@ footer a, footer a:visited, footer a:hover, footer a:active {
     color:inherit;
 }
 
+@media screen and (max-width: 1763px) {
+    .content-card:not(#assignment1) {
+        width: 44%;
+    }
+}
+
 @media screen and (max-width: 1400px) {
     #center-title h3 {
         font-size: 3.5em;
@@ -285,9 +291,18 @@ footer a, footer a:visited, footer a:hover, footer a:active {
         font-size: 2.5em;
         font-weight: bolder;
     }
+    .content-card:not(#assignment1) h4 {
+        font-size: 1.5em;
+    }
+    .content-card:not(#assignment1) p {
+        font-size: 1.2em;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    main {
+        width: 100%;
+    }
     header {
         flex-direction: column;
         align-items: center;
@@ -324,6 +339,12 @@ footer a, footer a:visited, footer a:hover, footer a:active {
     }
     #right-outgoing {
         display:none;
+    }
+    .content-card:not(#assignment1) {
+        width: 96%;
+    }
+    #assignment1 p {
+        font-size: 1.2em;
     }
 }
 
