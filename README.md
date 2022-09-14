@@ -26,14 +26,14 @@ N/A (No installation necessary, please see deployed link above to open webpage)
 
 Special thanks to the UofA Coding Bootcamp teaching staff for guidance and assistance.
 
-**Images used throughout the webpage (stored in assets folder) are credited below**
-Background 2 - https://wallpapersden.com/mountain-sunrise-8k-wallpaper/3840x2160/
-Background 3 - https://www.pling.com/p/1514801/
-Background1 - https://www.peakpx.com/en/hd-wallpaper-desktop-akqlf
-Horiseon.PNG - https://github.com/Toacin/Unit-1-Challenge/blob/main/assets/images/digital-marketing-meeting.jpg
-Phoenix-Background2 - https://pixels.com/featured/stand-of-saguaro-cactus-at-sunset-time-near-phoenix-ray-redstone.html
-Phoenix-Background3 - https://www.pinterest.com/pin/848365648535428324/
-Updated-Profile-Picture - Personal Asset
+**Images used throughout the webpage (stored in assets folder) are credited below**  
+Background 2 - https://wallpapersden.com/mountain-sunrise-8k-wallpaper/3840x2160/  
+Background 3 - https://www.pling.com/p/1514801/  
+Background1 - https://www.peakpx.com/en/hd-wallpaper-desktop-akqlf  
+Horiseon.PNG - https://github.com/Toacin/Unit-1-Challenge/blob/main/assets/images/  digital-marketing-meeting.jpg
+Phoenix-Background2 - https://pixels.com/featured/  stand-of-saguaro-cactus-at-sunset-time-near-phoenix-ray-redstone.html  
+Phoenix-Background3 - https://www.pinterest.com/pin/848365648535428324/  
+Updated-Profile-Picture - Personal Asset  
 
 ## License
 
