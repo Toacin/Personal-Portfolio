@@ -161,6 +161,8 @@ main {
 }
 
 /* background images for all placeholder projects */
+
+/* assignment 1 has unique properties since it is bigger than the rest of the works */
 #assignment1 {
     background-image: url("../Images/Horiseon.PNG");
     min-width: 96%;

@@ -25,7 +25,10 @@
     </header>
     <main>
         <!-- main comment -->
-        <section id="top-section">
+
+        <!-- aria labels added when elements have a background image through CSS rather than img element through HTML. This is to replace the traditional alt attribute otherwise found in img elements in HTML -->
+        <section id="top-section" aria-label="Background image of cartoon sky with clouds and hot air balloon in center">
+            <!-- each div represents left right or center of the top portion of page -->
             <div id="left-city">
                 <p>P<br>h<br>o<br>e<br>n<br>i<br>x,<br><br>A<br>Z</p>
             </div>
@@ -38,70 +41,77 @@
                 <a target="_blank" href="https://www.github.com/Toacin">GitHub↗</a>
             </div>
         </section>
+        <!-- middle portion of page including about me and projects -->
         <section id="middle-section">
+            <!-- about me code found below -->
             <section id="about-me">
                 <h3>About Me</h3>
                 <p>Hi there! My name is Toacin Patwary. I am a prospective full-stack web developer from Phoenix Arizona. A few things about myself: I am driven, opportunistic, and always motivated to learn more. There is nothing that I love more than my two cats. Thank you for visiting my page!</p>
             </section>
             <h3 id="middle-header">Works</h3>
+            <!-- All of the works can be found below -->
             <section id="middle-content">
-                <a target="_blank" href="http://www.github.com/Toacin/Unit-1-Challenge" class="content-card" id="assignment1">
+                <a target="_blank" href="http://www.github.com/Toacin/Unit-1-Challenge" class="content-card" id="assignment1" aria-label="Background image of Horiseon Webpage that I optimized">
                     <div></div>
                     <p>This repository is a task at optimizing an already developed webpage with refining CSS selectors and properties and making the HTML elements more accessible.</p>
                     <h4>Optimizing Horiseon Webpage</h4>
                 </a>
-                <div class="content-card" id="assignment2">
+                <div class="content-card" id="assignment2" aria-label="Background image of cactus in foreground and daytime in back">
                     <div></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <h4>Assignment 2</h4>
                 </div>
-                <div class="content-card" id="assignment3">
+                <div class="content-card" id="assignment3" aria-label="Background image of Phoenix, AZ from hilltop POV">
                     <div></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <h4>Assignment 3</h4>
                 </div>
-                <div class="content-card" id="assignment4">
+                <div class="content-card" id="assignment4" aria-label="Background image of cactus in foreground with plateus in back">
                     <div></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <h4>Assignment 4</h4>
                 </div>
-                <div class="content-card" id="assignment5">
+                <div class="content-card" id="assignment5" aria-label="Background image of cartoon sunset with red theme color">
                     <div></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <h4>Assignment 5</h4>
                 </div>
-                <div class="content-card" id="assignment6">
+                <div class="content-card" id="assignment6" aria-label="Background image of cartoon sunset with blue theme color">
                     <div></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <h4>Assignment 6</h4>
                 </div>
-                <div class="content-card" id="assignment7">
+                <div class="content-card" id="assignment7" aria-label="Background image of beach with smoothly rounded rocks">
                     <div></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <h4>Assignment 7</h4>
                 </div>
             </section>
+            <!-- Aside section for more minor works with placeholder name projects -->
             <aside>
                 <div>
-                    <img src="./assets/Images/Project1.jpg" alt="">
+                    <img src="./assets/Images/Project1.jpg" alt="outline image of rocket">
                     <h4>Project 1</h4>
                 </div>
                 <div>
-                    <img src="./assets/Images/Project2.png" alt="">
+                    <img src="./assets/Images/Project2.png" alt="outline image of stacked papers">
                     <h4>Project 2</h4>
                 </div>
                 <div>
-                    <img src="./assets/Images/project3.jpg" alt="">
+                    <img src="./assets/Images/project3.jpg" alt="outline image of two stick figures working with two gears">
                     <h4>Project 3</h4>
                 </div>
             </aside>
         </section>
     </main>
+    <!-- footer code below, including 3 outgoing placeholder links -->
     <footer id="footer">
         <h2>Contact Me</h2>
         <div>
+            <!-- eventually this will prompt the user to send a message to my email right from the website, not quite there yet -->
             <a href="https://www.outlook.com">toacinp@outlook.com</a>
             <a target="_blank" href="https://www.github.com/Toacin">GitHub</a>
+            <!-- placeholder as linkedin since I don't have a personal linked in yet -->
             <a href="https://www.LinkedIn.com">LinkedIn</a>
         </div>
     </footer>
