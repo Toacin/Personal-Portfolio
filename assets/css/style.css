@@ -2,6 +2,7 @@
     font-family: monospace, Arial, Helvetica, sans-serif;
 }
 
+/* Header Styling begins here */
 header {
     background-color: rgba(0,0,0,70%);
     display: flex;
@@ -18,6 +19,7 @@ header a, header a:visited, header a:hover, header a:active {
     font-size: 1.2em;
 }
 
+/* header left side properties applied in the next 3 selectors */
 header div {
     display: flex;
     align-items: center;
@@ -39,6 +41,7 @@ header div h2 {
     padding-left: 15px;
 }
 
+/* header right side properties applied in next 2 selectors */
 header nav {
     display: flex;
     align-items: center;
@@ -53,10 +56,12 @@ header nav a {
     padding: 10px;
 }
 
+/* main code begins here */
 main {
     background-color:lightblue;
 }
 
+/* top half of the main portion of the code with parachute background pic*/
 #top-section {
     width: 100%;
     height: 850px;
@@ -68,11 +73,13 @@ main {
     background-position: center;
 }
 
+/* top middle left side */
 #left-city {
     margin-left: 15px;
     font-size: 1.5em;
 }
 
+/* top middle center side where it says personal portfolio */
 #center-title {
     max-width: 25%;
     min-width: auto;
@@ -91,6 +98,7 @@ main {
     font-size: 1.5em;
 }
 
+/* add outgoing links to the right side */
 #right-outgoing {
     margin-right: 15px;
     font-size: 1.2em;
@@ -102,6 +110,7 @@ main {
     color:inherit;
 }
 
+/* middle section with about me and projects */
 #middle-section {
     display:flex;
     background-color: rgba(14,14,54,100%);
@@ -111,6 +120,7 @@ main {
     padding-bottom:40px;
 }
 
+/* about me begins here */
 #about-me {
     display: flex;
     margin: 120px 20px 120px 20px;
@@ -131,6 +141,7 @@ main {
     padding-left: 20px;
 }
 
+/* works begin here*/
 #middle-header {
     width: 100%;
     text-align: center;
@@ -149,6 +160,7 @@ main {
 
 }
 
+/* background images for all placeholder projects */
 #assignment1 {
     background-image: url("../Images/Horiseon.PNG");
     min-width: 96%;
@@ -184,6 +196,7 @@ main {
     background-image: url("../Images/Background\ 3.jpg");
 }
 
+/*class properties applied to all works*/
 .content-card {
     margin: 10px;
     width:48%;
@@ -228,6 +241,7 @@ main {
     visibility: visible;
 }
 
+/* properties applied to aside */
 #middle-section aside {
     width: 10%;
     padding: 5px;
@@ -255,6 +269,7 @@ main {
     margin-bottom: 20px;
 }
 
+/* styling for footing applied here */
 footer {
     background-color:aqua;
     padding: 40px;
@@ -273,6 +288,7 @@ footer a, footer a:visited, footer a:hover, footer a:active {
     color:inherit;
 }
 
+/* although not necessary, media queries for 1763px and 1400px width have been added b/c webpage started to break at these breakpoints */
 @media screen and (max-width: 1763px) {
     .content-card:not(#assignment1) {
         width: 44%;
@@ -284,8 +300,21 @@ footer a, footer a:visited, footer a:hover, footer a:active {
         font-size: 3.5em;
         font-weight:bold;
     }
+    #middle-section aside {
+        flex-direction: row;
+        width: 90%;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 10px;
+    }
+    #middle-section aside div {
+        max-width: 25%;
+    }
+
 }
 
+/* standard media queries added here */
 @media screen and (max-width: 992px) {
     #center-title h3 {
         font-size: 2.5em;
